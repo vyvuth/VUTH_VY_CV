@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,200..800;1,6..72,200..800&display=swap');
+.Hanuman{
+      font-family: "Hanuman", serif;
+
+}
+.menu{
+    font-size: 1.5rem;
+}
+.menu:hover{
+    text-decoration: underline;
+    text-decoration-color: crimson;
+    text-decoration-style: solid;
+    transition: all 0.3s ;
+}
+.box_1{
+    width: 48%;
+    height: 100%;
+}
+.box_2{
+    width: 50%;
+    height: 100%    ;
+}
+.newsreader{
+      font-family: "Newsreader", serif;
+}
+.skill:hover{
+    font-size: 2rem;
+    transition: all 0.2s ease;
+    color: crimson;
+    text-shadow: 5px 10px 15px;
+}
+.d-skill{
+    width: 100%;
+    height: 100%;
+    background-color: blueviolet;
+}
+.skill_1{
+    width: 48%;
+    height: 100%;
+    background-color: chartreuse;
+}
+.skill_2{
+    width: 50%;
+    height: 100%;
+    background-color: coral;
+}
+.footer_1{
+    width: 49%;
+    height: 100%;
+}
+.footer_2{
+    width: 49%;
+    height: 100%;
+}
