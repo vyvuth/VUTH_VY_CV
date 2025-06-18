@@ -36,20 +36,15 @@
   border-radius: 15px;
 }
 .skill_1 {
-  width: 48%;
+  width: 45%;
   height: auto;
 }
 .skill_2 {
-  width: 50%;
+  width: 55%;
   height: 100%;
-  background-color: coral;
 }
 .footer_1 {
-  width: 49%;
-  height: 100%;
-}
-.footer_2 {
-  width: 49%;
+  width: 100%;
   height: 100%;
 }
 .img_skill {
@@ -57,4 +52,28 @@
   height: 100%;
   object-fit: cover;
   border-radius: 50%;
+}
+.parent_pic {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 250%;
+  display: flex;
+  /* justify-content: space-evenly; */
+}
+.parent_pic .pic_1 {
+  width: 350px;
+  height: 50%;
+  background-color: aqua;
+  margin-top: 8%;
+  margin-left: 10%;
+  border-radius: 15px;
+}
+.parent_pic .pic_2 {
+  width: 350px;
+  height: 50%;
+  background-color: blue;
+  margin-top: 8%;
+  margin-left: 21%;
+  border-radius: 15px;
 }

@@ -1,9 +1,10 @@
 import React from "react";
+import Softskill from "./Softskill";
 
 function ComponentPage() {
   return (
     <>
-      <div className=" container-fluid my-5">
+      <div className=" container-fluid my-5 m-0 p-0">
         {/* Description Page  */}
         <div className=" container newsreader">
           <div className="rounded bg-opacity-10 bg-secondary p-2 d-flex justify-content-between">
@@ -57,7 +58,7 @@ function ComponentPage() {
           </div>
         </div>
         {/* Development skill  */}
-        <div className=" mt-5">
+        <div className=" mt-5 newsreader  ">
           <h2 className=" text-capitalize fs-5 skill text-center text-decoration-underline  ">
             | development skill |
           </h2>
@@ -80,13 +81,6 @@ function ComponentPage() {
                         className="img_skill"
                         src="js.png"
                         alt="JavaScript"
-                      />
-                    </div>
-                    <div className="col-4 text-center">
-                      <img
-                        className="img_skill"
-                        src="jquery.png"
-                        alt="jQuery"
                       />
                     </div>
                     <div className="col-4 text-center">
@@ -118,9 +112,71 @@ function ComponentPage() {
               </div>
             </div>
 
-            <div className="skill_2 py-5"></div>
+            <div className="skill_2 newsreader">
+              <h1 className=" text-capitalize text-center fs-5 m-0 my-3 text-primary text-decoration-underline">
+                <sup>|**</sup>
+                General information
+                <sup>**|</sup>
+              </h1>
+              <center style={{ width: "95%" }}>
+                <p className=" d-flex justify-content-around my-2 fs-5">
+                  <b>
+                    <li>2024 </li>
+                  </b>
+                  has been completed successfull in web application development
+                </p>
+                <p className=" d-flex justify-content-around my-2 fs-5 me-5">
+                  <b>
+                    <li className=" me-4">2024 </li>
+                  </b>
+                  has been completed successfull in advance JS & React js
+                </p>
+                <p className=" d-flex justify-content-around my-2 fs-5 me-5">
+                  <li className=" me-5">
+                    Have created a lot of project course including web
+                    application development and Advance JS & React js
+                  </li>
+                </p>
+              </center>
+              <p className=" text-center my-3">
+                <b className=" text-danger fw-semibold">Alumni student</b>{" "}
+                &copy; ETECT CENTER
+              </p>
+            </div>
+          </div>
+          <div>
+            <h3 className=" text-capitalize text-center fs-5 my-5">
+              || certificate of achievment ||
+            </h3>
+            <div>
+              <div>
+                <img
+                  className=" w-100 h-auto object-fit-cover overflow-hidden"
+                  src="frame.png"
+                  alt="frame loading"
+                />
+              </div>
+              <div className="parent_pic">
+                <div className="pic_1">
+                  <img
+                    className=" w-100 h-auto object-fit-cover"
+                    src="pic_1.png"
+                    alt="pic_1 loading"
+                  />
+                </div>
+                <div className="pic_2">
+                  <img
+                    className=" w-100 h-auto object-fit-cover"
+                    src="pic_2.png"
+                    alt="pic_1 loading"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+        {/* Softskill  */}
+        <Softskill />
       </div>
     </>
   );
