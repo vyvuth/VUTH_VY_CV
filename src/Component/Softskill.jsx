@@ -5,7 +5,7 @@ import { GrHostMaintenance } from "react-icons/gr";
 function Softskill() {
   return (
     <>
-      <div className=" container-fluid newsreader">
+      <div className=" container-fluid newsreader m-0 p-0">
         <h1 className=" text-capitalize text-secondary text-opacity-75 fs-5 my-3 mx-4">
           extra skills 👨‍💻
         </h1>

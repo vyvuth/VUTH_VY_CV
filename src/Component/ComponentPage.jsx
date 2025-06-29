@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Softskill from "./Softskill";
 
 function ComponentPage() {
@@ -7,16 +7,20 @@ function ComponentPage() {
       <div className=" container-fluid my-5 m-0 p-0">
         {/* Description Page  */}
         <div className=" container newsreader">
-          <div className="rounded bg-opacity-10 bg-secondary p-2 d-flex justify-content-between">
-            <div className="box_1">
-              <img
-                src="vy.png"
-                className=" w-50 object-fit-cover mx-5 rounded border border-2 border-primary-subtle"
-                alt="data loading"
-              />
-              <h1 className=" my-4 mx-5 f-2">Hello Sir or Madam</h1>
-              <h2 className=" my-4 mx-5">I'm VUTH VY</h2>
-              <p className=" px-3 f-3">
+          <div className=" rounded bg-opacity-10 bg-secondary p-2 d-flex justify-content-between flex-column flex-lg-row">
+            <div className="box_1 w-100 w-lg-0 w-100 my-lg-0 my-3">
+              <div className="col-lg-6">
+                <img
+                  src="vy.png"
+                  className=" w-lg-50 h-lg-auto w-100 mx- m-lg-0 object-fit-cover mx-lg-5 rounded border border-2 border-primary-subtle"
+                  alt="data loading"
+                />
+              </div>
+              <h1 className=" my-lg-4 mx-lg-5 f-lg-2 fs-4 my-3">
+                Hello Sir or Madam
+              </h1>
+              <h2 className=" my-lg-4 mx-lg-5 fs-4">I'm VUTH VY</h2>
+              <p className="px-lg-0 px-3 f-3">
                 I am a passionate and detail-oriented web developer with a
                 strong foundation in front-end technologies like HTML, CSS,
                 JavaScript, and modern frameworks such as React. I enjoy
@@ -26,8 +30,8 @@ function ComponentPage() {
                 efficient digital solutions that meet real-world needs.
               </p>
             </div>
-            <div className="box_2">
-              <h2 className=" text-capitalize text-center my-5 me-4">
+            <div className="box_2 w-lg-0 col-lg-6">
+              <h2 className=" text-capitalize text-lg-center my-lg-5 me-lg-4 mx-lg-0 mx-3">
                 here my job's description
               </h2>
               <h5 className=" fw-lighter">
@@ -65,8 +69,8 @@ function ComponentPage() {
           <h2 className=" text-capitalize mx-2 fs-6">
             ** development language used **
           </h2>
-          <div className="d-skill d-flex justify-content-between">
-            <div className="skill_1 py-5 px-5">
+          <div className="d-skill d-lg-flex  justify-content-between">
+            <div className="skill_1 py-5 px-5 w-lg-0 w-100">
               <div className="row">
                 <div className="col-lg-8">
                   <div className="row g-4 ">
@@ -112,24 +116,19 @@ function ComponentPage() {
               </div>
             </div>
 
-            <div className="skill_2 newsreader">
+            <div className="skill_2 newsreader w-lg-0 w-100">
               <h1 className=" text-capitalize text-center fs-5 m-0 my-3 text-primary text-decoration-underline">
                 <sup>|**</sup>
                 General information
                 <sup>**|</sup>
               </h1>
-              <center style={{ width: "95%" }}>
-                <p className=" d-flex justify-content-around my-2 fs-5">
-                  <b>
-                    <li>2024 </li>
-                  </b>
-                  has been completed successfull in web application development
+              <center className=" w-lg-0 w-100" style={{ width: "95%" }}>
+                <p className="  my-lg-2 fs-5">
+                  2024 has been completed successfull in web application
+                  development
                 </p>
-                <p className=" d-flex justify-content-around my-2 fs-5 me-5">
-                  <b>
-                    <li className=" me-4">2024 </li>
-                  </b>
-                  has been completed successfull in advance JS & React js
+                <p className=" my-2 fs-5 me-5">
+                  2024 has been completed successfull in advance JS & React js
                 </p>
                 <p className=" d-flex justify-content-around my-2 fs-5 me-5">
                   <li className=" me-5">
@@ -144,7 +143,7 @@ function ComponentPage() {
               </p>
             </div>
           </div>
-          <div>
+          <div className=" d-lg-block d-none">
             <h3 className=" text-capitalize text-center fs-5 my-5">
               || certificate of achievment ||
             </h3>

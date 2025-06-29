@@ -1,20 +1,20 @@
-import React from 'react'
-import HeaderPages from './HeaderPage/HeaderPages'
-import ComponentPage from './Component/ComponentPage'
-import FooterPage from './FooterPage/FooterPage'
+import React from "react";
+import HeaderPages from "./HeaderPage/HeaderPages";
+import ComponentPage from "./Component/ComponentPage";
+import FooterPage from "./FooterPage/FooterPage";
 
 function App() {
   return (
-    <div>
+    <>
       <header>
-        <HeaderPages/>
+        <HeaderPages />
       </header>
-      <ComponentPage/>
+      <ComponentPage />
       <footer>
-        <FooterPage/>
+        <FooterPage />
       </footer>
-    </div>
-  )
+    </>
+  );
 }
 
-export default App
+export default App;

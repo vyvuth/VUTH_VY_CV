@@ -6,6 +6,7 @@ import {
   FaTelegram,
   FaTiktok,
 } from "react-icons/fa";
+import ButtomMenu from "../menu/ButtomMenu";
 
 function FooterPage() {
   useEffect(() => {
@@ -13,21 +14,21 @@ function FooterPage() {
   }, []);
   return (
     <>
-      <div>
+      <div className=" m-0 p-0">
         <div className=" container-fluid w-100 h-100 bg-secondary bg-opacity-25 p-1 newsreader ">
           <div className=" my-3">
-            <h4 className=" d-flex mx-5 text-capitalize">
+            <h4 className=" d-lg-flex mx-lg-5 mx-4 text-capitalize w-lg-0 w-100">
               ||** has been designed & developed:{" "}
-              <p className=" mx-2 text-uppercase text-danger text-bolder">
+              <p className=" mt-lg-0 mt-3 mx-lg-2   text-uppercase text-danger text-bolder">
                 {" "}
                 &copy; vuthvy 👨‍💻
               </p>
             </h4>
-            <p className=" text-capitalize fs-5 mx-5">
+            <p className=" text-capitalize fs-5 mx-lg-5 mx-4">
               ||** i am a programmer who can building with the skills had showed
               of in the decription above. 👨‍💻😊
             </p>
-            <p className=" text-capitalize fs-5 mx-5">
+            <p className=" text-capitalize fs-5 mx-lg-5 mx-4">
               ||** you can contact us throught: <BsTelephone />
             </p>
             <ul>
@@ -75,6 +76,8 @@ function FooterPage() {
             </p>
           </div>
         </div>
+        {/* menu  */}
+        <ButtomMenu />
       </div>
     </>
   );
