@@ -16,7 +16,7 @@ function FooterPage() {
     <>
       <div className=" m-0 p-0">
         <div className=" container-fluid w-100 h-100 bg-secondary bg-opacity-25 p-1 newsreader ">
-          <div className=" my-3">
+          <div className=" my-3 mb-lg-0 mb-5">
             <h4 className=" d-lg-flex mx-lg-5 mx-4 text-capitalize w-lg-0 w-100">
               ||** has been designed & developed:{" "}
               <p className=" mt-lg-0 mt-3 mx-lg-2   text-uppercase text-danger text-bolder">
@@ -71,7 +71,7 @@ function FooterPage() {
                 </a>
               </li>
             </ul>
-            <p className=" text-center fs-6 fw-semibold p-0 m-0 text-danger text-decoration-underline">
+            <p className=" text-center fs-6 fw-semibold p-0 m-0 text-danger text-decoration-underline ">
               &copy;2025
             </p>
           </div>
